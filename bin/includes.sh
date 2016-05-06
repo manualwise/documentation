@@ -26,10 +26,9 @@ jq -cr '.[]' _includes.json | while read key; do
 
 	log "Copying ${source_folder} from repository ${url} (branch ${branch}) to ${dest_folder}"
 	if [ ! -d ".tmp/${name}" ]; then
-		git clone "${url}" ".tmp/${name}"
+		git clone --branch "${branch}" --single-branch --depth "1" "${url}" ".tmp/${name}"
 	fi
 	cd ".tmp/${name}"
-	git checkout "${branch}"
 	cp -r "./${source_folder}" "${DIR}/${dest_folder}"
-	cd "${DIR}"
+	cd -
 done
