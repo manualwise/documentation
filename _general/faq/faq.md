@@ -25,6 +25,9 @@ redirect_from:
 * include a table of contents
 {:toc}
 
+## Why does Codeship need admin rights on my repository?
+Unfortunately, the Version Control Systems (VCS - GitHub, Bitbucket, GitLab) do not allow for more fine-grained permissions. Write access is needed in order to add webhooks, fetch the list of users that are allowed to access your repository, and add SSH keys. Once this changes, we will make sure to update the permissions needed accordingly.
+
 ## Can I have sudo rights on the classic infrastructure?
 Codeship does not allow root level access (i.e. commands run via `sudo`) on its hosted environment for security reasons. If you are looking to install a dependency that's not available via a language specific package manager (e.g. `gem`, `pip`, `npm` or a similar tool), please contact [support@codeship.com](mailto:support@codeship.com) or send us a message using our in-app messenger.
 
