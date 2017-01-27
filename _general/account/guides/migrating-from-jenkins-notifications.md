@@ -95,4 +95,15 @@ After many conversations, we found that the management and upkeep of plugins on 
 
 In this article, we’ve covered [Slack](https://slack.com), [HipChat](http://hipchat.com), and our [Google Chrome Shipscope App](https://github.com/codeship/shipscope). There are other options worth reviewing of course, such as GitHub and GitLab Pull Requests and more.  We hope it’s been useful for you to learn about the options for migrating notifications from Jenkins to Codeship.
 
+Now that you know how to migrate your notifications from Jenkins to Codeship we suggest looking into our other walk-throughs:
+
+- [Migrating your Tests from Jenkins to Codeship](https://documentation.codeship.com/general/account/guides/migrating-from-jenkins-testing/)
+- [Migrating your Organizations, Users, and Permissions from Jenkins to Codeship](https://documentation.codeship.com/general/account/guides/migrating-from-jenkins-organizations/)
+
+You also might be interested in downloading these migration guides as PDFs. You can do so here.
+
+- [Migrating your Tests from Jenkins to Codeship (pdf)](https://resources.codeship.com/hubfs/Codeship_Migrating_from_Jenkins_to_Codeship-Testing.pdf)
+- [Migrating your Organizations, Users, and Permissions from Jenkins to Codeship (pdf)](https://resources.codeship.com/hubfs/Codeship_Migrating_from_Jenkins_to_Codeship-Organizations_Roles_and_Users.pdf)
+- [Migrating your Notifications from Jenkins to Codeship (pdf)](https://resources.codeship.com/hubfs/Codeship_Migrating_from_Jenkins_to_Codeship-Testing.pdf)
+
 If you want to learn more please contact us at [helpdesk@codeship.com](mailto:helpdesk@codeship.com).
